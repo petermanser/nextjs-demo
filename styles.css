@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+img {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+.pulse {
+  animation: pulse 1s infinite ease-in-out;
+}
+@keyframes pulse {
+  0% {
+    background-color: rgba(165, 165, 165, 0.1);
+  }
+  50% {
+    background-color: rgba(165, 165, 165, 0.3);
+  }
+  100% {
+    background-color: rgba(165, 165, 165, 0.1);
+  }
+}
